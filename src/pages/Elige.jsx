@@ -39,7 +39,7 @@ const Elige = () => {
           {categoriaState}
         </div>
 
-            <button onClick={() => existType(categoriaState)} className="pb-10">
+            <button onClick={() => existType(categoriaState)} className="pb-8">
                 SUBMIT
             </button>
         </div>

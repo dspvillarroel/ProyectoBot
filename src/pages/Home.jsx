@@ -12,9 +12,8 @@ const Home = () => {
                     <h1>ParticipaBOt</h1>
                     <p>PRIORIZANDO POLÍTICAS PÚBLICAS</p>
                     <h2>¿Qúe Prefieres?</h2>
-                <p class="caja1">Fortalecer los progrmas de lucha contra la discriminacion y racismo para tener una 
-                sociedad mas incluyente e igualitaria.</p>
-                <p class="caja2">Trazar una agenda comun para dismunir la polarizacion social que vive el pais.</p>
+                <p class="caja1"></p>
+                <p class="caja2"></p>
                 
             <div>
                 <div className="contenido-l">

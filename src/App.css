@@ -267,7 +267,7 @@ ul {
 }
 .contenido-l{
   position: relative;
-  top: -290px;
+  top: 20px;
   padding: 10%;
   font-family: Roboto,"Roboto Mono",Arial,sans-serif;
 }
@@ -278,3 +278,62 @@ ul {
 .combobox{
   background-color: #00cbae;
 }
+.pb-10{
+  position: absolute;
+  border-radius:0%;
+  padding: 1%;
+  width:320px;
+  height:250px;
+  left: 230px;
+  border-color: #07b189;
+  cursor: pointer;
+  border-radius: 10%;
+  border-top-width: 10px;
+  border-right-width: 1em;
+  border-bottom-width: thick;
+  border-left-width: thin;
+ 
+}
+.pb-10:hover{
+  border-radius: 1%;
+  background-color: #cbcece;
+  border-radius: 10%;
+}
+.sug{
+  position: relative;
+  border-radius:0%;
+  left: 170px;
+  width:320px;
+  height:250px;
+  border-color: #07b189;
+  cursor: pointer;
+  border-radius: 10%;
+  border-top-width: 10px;
+  border-right-width: 1em;
+  border-bottom-width: thick;
+  border-left-width: thin;
+ 
+}
+.sug:hover{
+  border-radius: 1%;
+  background-color: #cbcece;
+  border-radius: 10%;
+}
+.NO{
+  position: absolute;
+  left: 490px;
+  top: 370px;
+  border-color: #07b189;
+  padding: 1%;
+  font-size: 18px;
+  font-family: "Latin Modern Roman";
+  cursor: pointer;
+  border-radius: 10%;
+  
+
+
+}
+.NO:hover{
+  background-image: radial-gradient(circle at 50% 0.33%, #c7ff96 0, #b0ff9d 10%, #97ffa3 20%, #7efea8 30%, #64f2ac 40%, #48e5ad 50%, #27d7ad 60%, #00cbae 70%, #00c1af 80%, #00b8b0 90%, #00b0b1 100%);
+  border-radius:10%;
+} 
