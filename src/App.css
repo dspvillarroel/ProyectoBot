@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(31, 29, 29);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+App{
+  text-align: center;
+}
+.conocenos {
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+  align-items: center;
+  margin: 100px;
+  padding: 1px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(187, 18, 18, 0.1);
+}
+
+h1 {
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+  font-size: 46px;
+  color: #21cf6c;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+  font: 150% sans-serif;
+  font-size: 24px;
+  color: #667B72;
+  margin-top: 30px;
+}
+h2 {
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+  font: 150% sans-serif;
+  font-size: 24px;
+  color: #667B72;
+  margin-top: 30px;
+}
+
+
+p {
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  color: #667B72;
+  line-height: 1.4;
+  margin-top: 10px;
+  padding: 0 12rem;
+  
+}
+.elije {
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+  align-items: center;
+  margin: 100px;
+  padding: 1px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(187, 18, 18, 0.1);
+  
+}
+p {
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  color: #667B72;
+  
+  
+}
+h3 {
+  font-family: "Courier New", monospace;
+  font-size: 17px;
+  color: #667B72;
+  line-height: 1.4;
+  margin-top: 10px;
+  padding: 0 22rem;
+}
+h4{
+  font-family: "Courier New", monospace;
+  font-size: 19px;
+  color: #667B72;
+}
+h5{
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+  font-size: 46px;
+  color: #0c1711;
+  text-align: center;
+  top: 10%;
+}
+a {
+  text-decoration: none; /* Remueve estilos de los links */
+  color: rgb(41, 72, 44); /* Color de los links */
+}
+
+ul {
+  display: flex; /* Hacemos flex al ul */
+  justify-content: center; /* centramos en el eje horizontal*/
+  justify-content: space-evenly; /* Aplicamos separación a los elementos dentro del ul */
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+.cabecera1{
+  font-family: "Courier New", monospace;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  
+}
+.cabecera1:hover{
+  background-color: #6bd881;
+  border-radius: 5%;
+  
+}
+.cabecera2{
+  font-family: "Courier New", monospace;
+  padding: 15px;
+  
+}
+.cabecera2:hover{
+  background-color: #6bd881;
+  border-radius: 5%;
+}
+.cabecera3{
+  font-family: "Courier New", monospace;
+  padding: 15px;
+}
+.cabecera3:hover{
+  background-color: #6bd881;
+  border-radius: 5%;
+}
+.cabecera4{
+  font-family: "Courier New", monospace;
+  padding: 15px;
+}
+.cabecera4:hover{
+  background-color: #6bd881;
+  border-radius: 5%;
+}
+.propone{
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+  align-items: center;
+  margin: 100px;
+  padding: 1px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(187, 18, 18, 0.1);
+}
+
+.home{
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+  align-items: center;
+  margin: 100px;
+  padding: 1px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(187, 18, 18, 0.1);
+}
+.custom-select{
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 1%;
+  border-color: #0baf3c;
+  border-width: 2px;
+}
+.header {
+  background: rgb(248, 243, 243);
+  color: rgb(0, 0, 0);
+  padding:30px;
+  
+  position:absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  }
+  .header a{
+  color: rgb(0, 0, 0);
+  text-decoration:double;
+  }
+  .caja1{
+    position: relative;
+    top: 9px;
+   left: -230px;
+    width:190px;
+    margin:10px 52px;
+    padding:60px;
+    font-size:italic;
+    color:#000;
+    border: 1px solid #efefef;
+    border-width: 1px;
+  }
+  .caja1:hover{
+    background-image: radial-gradient(circle at 50% 0.33%, #c7ff96 0, #b0ff9d 10%, #97ffa3 20%, #7efea8 30%, #64f2ac 40%, #48e5ad 50%, #27d7ad 60%, #00cbae 70%, #00c1af 80%, #00b8b0 90%, #00b0b1 100%);
+    border-radius: 3%;
+  }
+  .caja2{
+    position: relative;
+    top: -315px;
+   left: 240px;
+    width:190px;
+    margin:10px 52px;
+    padding:60px;
+    font-size:italic;
+    color:#000;
+    border: 1px solid #efefef;
+    border-width: 1px;
+    height:189px ;
+  }
+  .caja2:hover{
+    background-image: radial-gradient(circle at 50% 0.33%, #c7ff96 0, #b0ff9d 10%, #97ffa3 20%, #7efea8 30%, #64f2ac 40%, #48e5ad 50%, #27d7ad 60%, #00cbae 70%, #00c1af 80%, #00b8b0 90%, #00b0b1 100%);
+    border-radius: 3%;
+  }
+.demo1{
+  position: relative;
+  top: -355px;
+ left: -240px;
+ font-weight: bold;
+ font-family: "Latin Modern Roman";
+  font-style: italic;
+}
+
+.demo2{
+  position: relative;
+  top: -401px;
+ left: 240px;
+ font-weight: bold;
+ font-family: "Latin Modern Roman";
+ font-style: italic;
+}
+.contenido-l{
+  position: relative;
+  top: -290px;
+  padding: 10%;
+  font-family: Roboto,"Roboto Mono",Arial,sans-serif;
+}
+.contador{
+  position: relative;
+  top: -1220px;
+}
+.combobox{
+  background-color: #00cbae;
+}
