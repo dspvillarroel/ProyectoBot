@@ -1,10 +1,25 @@
 import React, {useState} from 'react';
 import FillComboBox from '../components/comboBox';
-import { useNavigate } from "react-router-dom";
 import NavBar from "../components/NavBar";
+import { createItem } from "../functions";
 const Propone =() => {
     const [categoriaState, setCategoriaState] = useState('');
     
+    const register = async (proporsal, typeProporsal) => {
+      createItem({tipo: typeProporsal, propuesta: proporsal});
+    }
+
+    function registerProposal(){
+      var selectElement = document.getElementById("custom-select");
+      var selectedOption = selectElement.value;
+
+      var inputElement = document.getElementById("proporsal");
+      var inputValue = inputElement.value;
+      register(inputValue, selectedOption);
+    }
+
+
+
     return (
       <div><NavBar/>
         <div className='propone'>
@@ -16,8 +31,8 @@ const Propone =() => {
             </center>
             <div>
 
-
-        <select className='custom-select' 
+        <select className='custom-select'
+          id="custom-select" 
           value={categoriaState}
           onChange={(e)=>{
             const selectedCategoria=e.target.value;
@@ -27,12 +42,13 @@ const Propone =() => {
         </select>
 
         <div>
-          {categoriaState}
-            <input type="input" placeholder='Mi propuesta es' />
-            <button type='submit'>Enviar propuesta</button> 
-         
+            {categoriaState}
+            <input type="text" placeholder='Mi propuesta es' 
+            id="proporsal"></input>
+            <button onClick={() => registerProposal()}>Enviar propuesta</button> 
         </div>
             </div>
+            
         </div>
         </div>
     )
